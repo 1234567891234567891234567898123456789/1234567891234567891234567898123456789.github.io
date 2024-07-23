@@ -9,7 +9,6 @@ function changeImg(image){
         img.style.height='100px';
     }
 }
-alert("123");
 function menuclick(){
     menu = !menu;
     var menuImage = document.getElementById("menu");
