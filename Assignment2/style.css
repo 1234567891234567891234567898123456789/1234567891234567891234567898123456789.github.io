@@ -1,13 +1,5 @@
-@media screen and (max-width:426px){
-    #menu_button {
-        width: 425px;
-        border: 1px solid black;
-        display: flex;
-        justify-content: space-around;
-    }
-}
 
-@media screen and (max-width:1536px){
+@media screen and (min-width:1535px){
     body{
         background-color: aqua;
     }
@@ -16,7 +8,6 @@
         width: 100px;
         height: 100px;
         position: relative;
-        /* display: flex; */
         justify-content: center;
         align-items: center;
         transition-property: width,height;
@@ -46,24 +37,24 @@
         align-items: center;
     }
     
-#page2btn{
-background: green;
-width: 100px;
-height: 20px;
-border-radius: 10px;
-position: relative;
-display: flex;
-border-color: purple;
-justify-content: center;
-align-items: center;
-}
-
-#page3btn{
-    background: yellow;
-    width: 100px;
-    height: 20px;
-    border-radius: 10px;
-    position: relative;
+    #page2btn{
+        background: green;
+        width: 100px;
+        height: 20px;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        border-color: purple;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #page3btn{
+        background: yellow;
+        width: 100px;
+        height: 20px;
+        border-radius: 10px;
+        position: relative;
     display: flex;
     border-color: purple;
     justify-content: center;
@@ -76,9 +67,14 @@ align-items: center;
 #menu_button {
     width: 1536px;
     height: 10px;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-around;
 }
 
+}
+@media screen and (min-width:426px){
+    #menu_button {
+        border: 1px solid black;
+        justify-content: space-around;
+    }
 }
