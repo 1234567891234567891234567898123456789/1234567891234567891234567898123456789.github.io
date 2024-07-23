@@ -1,0 +1,84 @@
+@media screen and (max-width:800px){
+    #menu_button {
+        width: 800px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:1536px){
+    body{
+        background-color: aqua;
+    }
+    
+    #paper{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        transition-property: width,height;
+        transition-duration: 0.1s;
+    }
+    
+    #paper:active{
+        width: 10px;
+        height: 10px;
+    }
+    
+    .page{width:80vw;height:80vh;border:1px solid red}
+    nav ul li{display:inline;}
+    #page1{background:red}
+    #page2{background:green}
+    #page3{background:yellow}
+    
+    #page1btn{
+        background: red;
+        width: 100px;
+        height: 20px;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        border-color: purple;
+        justify-content: center;
+        align-items: center;
+    }
+    
+#page2btn{
+background: green;
+width: 100px;
+height: 20px;
+border-radius: 10px;
+position: relative;
+display: flex;
+border-color: purple;
+justify-content: center;
+align-items: center;
+}
+
+#page3btn{
+    background: yellow;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    border-color: purple;
+    justify-content: center;
+    align-items: center;
+}
+#menu{
+    height: 50px;
+}
+
+#menu_button {
+    width: 1536px;
+    height: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+}
