@@ -1,3 +1,9 @@
+@media screen and (min-width:426px){
+    #menu_button {
+        border: 1px solid black;
+        justify-content: space-around;
+    }
+}
 
 @media screen and (min-width:1535px){
     body{
@@ -55,26 +61,20 @@
         height: 20px;
         border-radius: 10px;
         position: relative;
-    display: flex;
-    border-color: purple;
-    justify-content: center;
-    align-items: center;
-}
-#menu{
-    height: 50px;
-}
-
-#menu_button {
-    width: 1536px;
-    height: 10px;
-    display: flex;
-    justify-content: space-around;
-}
-
-}
-@media screen and (min-width:426px){
+        display: flex;
+        border-color: purple;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu{
+        height: 50px;
+    }
+    
     #menu_button {
-        border: 1px solid black;
+        width: 1536px;
+        height: 10px;
+        display: flex;
         justify-content: space-around;
     }
+    
 }
