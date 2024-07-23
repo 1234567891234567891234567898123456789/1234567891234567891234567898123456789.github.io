@@ -1,7 +1,6 @@
 // document.getElementById("paper image").addEventListener("click",removepaper);
 //functions
 // var image = document.getElementById("paper image");
-alert(window.innerWidth);
 var menu = false;
 function changeImg(image){
     if (image == 'tree'){
