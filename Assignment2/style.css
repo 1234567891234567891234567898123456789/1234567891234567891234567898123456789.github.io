@@ -1,11 +1,15 @@
-@media screen and (min-width:426px){
+@media screen and (min-width:424px){
+    body{
+        background-color: purple;
+    }
     #menu_button {
         border: 1px solid black;
+        width: auto;
         justify-content: space-around;
     }
 }
 
-/* @media screen and (min-width:1535px){
+@media screen and (min-width:1535px){
     body{
         background-color: aqua;
     }
@@ -77,4 +81,4 @@
         justify-content: space-around;
     }
     
-} */
+}
