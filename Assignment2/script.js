@@ -59,4 +59,3 @@ show(2);
 page3btn.addEventListener("click", function () {
 show(3);
 });
-
